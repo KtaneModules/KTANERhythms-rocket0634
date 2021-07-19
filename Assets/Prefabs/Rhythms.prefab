@@ -533,6 +533,7 @@ GameObject:
   - component: {fileID: 4239891647076288}
   - component: {fileID: 33681664881376458}
   - component: {fileID: 23930781946124532}
+  - component: {fileID: 114902130644968598}
   m_Layer: 0
   m_Name: MaterialCube
   m_TagString: Untagged
@@ -1756,7 +1757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/Text Shader
+  - GUI/KT 3D Text
 --- !u!114 &114000011119089966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1970,7 +1971,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/Text Shader
+  - GUI/KT 3D Text
 --- !u!114 &114000012738418648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2033,7 +2034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShaderNames:
-  - GUI/Text Shader
+  - GUI/KT 3D Text
 --- !u!114 &114000013463916590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2096,6 +2097,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _colorblindMode: 0
+--- !u!114 &114902130644968598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1010752340871616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1005838349, guid: 45b809be76fd7a3468b6f517bced6f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShaderNames:
+  - KT/Mobile/Diffuse
 --- !u!212 &212000012427060340
 SpriteRenderer:
   m_ObjectHideFlags: 1
